@@ -1,7 +1,6 @@
 <h1>Wassup</h1>
 Create an Android chat app using the Firebase platform.
 <h3>Tools</h3>
-<br>
 <li>Firebase Authentication</li>
 <li>Firebase Realtime Database</li>
 <li>Firebase Storage</li>
