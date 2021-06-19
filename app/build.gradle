@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
-    id 'com.google.wassup5.crashlytics'
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -55,12 +55,12 @@ dependencies {
 
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
 
-    implementation platform('com.google.wassup5:wassup5-bom:28.1.0')
-    implementation 'com.google.wassup5:wassup5-database-ktx'
-    implementation 'com.google.wassup5:wassup5-storage-ktx'
-    implementation 'com.google.wassup5:wassup5-auth-ktx'
+    implementation platform('com.google.firebase:firebase-bom:28.1.0')
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-auth-ktx'
 
-    implementation 'com.firebaseui:wassup5-ui-database:7.1.1'
+    implementation 'com.firebaseui:firebase-ui-database:7.1.1'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'junit:junit:4.13.2'
